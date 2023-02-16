@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<languagePattern id="BaseSAS">
+   <comment>
+      <begin><![CDATA[/\*]]></begin>
+      <end><![CDATA[\*/]]></end>
+      <nested>false</nested>
+      <multiline>true</multiline>
+   </comment>
+
+   <string>
+      <begin><![CDATA[(?<!')']]></begin>
+      <end><![CDATA[(?<!')(?:'')*'(?!')]]></end>
+   </string>
+
+   <string>
+      <begin><![CDATA[(?<!")"]]></begin>
+      <end><![CDATA[(?<!\")(?:"")*"(?!")]]></end>
+   </string>
+   
+   <esql>
+      <begin><![CDATA[(?i)\bEXEC\b[[:space:]]+\bSQL\b]]></begin>
+      <end><![CDATA[;]]></end>
+   </esql>
+	
+	<keyword>FILE</keyword>
+	<keyword>PROC</keyword>
+	<keyword>MACRO</keyword>
+	<keyword>JOB</keyword>
+	<keyword>INPUT</keyword>
+	<keyword>SORT</keyword>
+	<keyword>PRINT</keyword>
+	<keyword>KEY</keyword>
+	<keyword>REPORT</keyword>
+    <keyword>START</keyword>
+    <keyword>FINISH</keyword>
+    <keyword>SYSFUNC</keyword>
+    <keyword>LET</keyword>
+    <keyword>IF</keyword>
+    <keyword>END</keyword>
+    <keyword>SYMDEL</keyword>
+    <keyword>SQL</keyword>
+    <keyword>QUIT</keyword>
+    <keyword>LOCAL</keyword>
+    <keyword>NULL</keyword>
+    <keyword>_NULL_</keyword>
+    <keyword>PUT</keyword>
+	
+	<types>
+      <BaseSASProgram>
+			<header>
+				<pattern><![CDATA[BEGIN_PROGRAM[(]]]></pattern>
+			</header>
+			<identification.name>	
+				<pattern><![CDATA[BEGIN_PROGRAM[(]]]></pattern>
+				<value><![CDATA[.*?(?:(?=\)))]]></value>
+			</identification.name>
+			<body>
+				<begin><![CDATA[[)]]]></begin>
+				<end><![CDATA[END_PROGRAM]]></end>
+				<nested>false</nested>
+			</body>
+      </BaseSASProgram>
+      
+		<SASFile>
+			<header>
+				<pattern><![CDATA[(?i)(^| |\t)([IN]+)*[FILE]+[[:space:]]+[[:word:]]+[[:space:]]*;[\r\n]+]]></pattern>
+			</header>
+            <identification.name>	
+                <pattern><![CDATA[(?i)(^| |\t)(IN)*[FILE]+[[:space:]]+]]></pattern>
+                <value><![CDATA[[[:word:]]+]]></value>
+            </identification.name>
+            <endwithoutbody><![CDATA[[[ ]|[\t]|;|[\r\n]|[\t]|[ ]]]]></endwithoutbody>
+          </SASFile>
+
+		<BaseSAS_Data>
+			<header>
+				 <pattern><![CDATA[^(?i)\s*\bDATA\b\s+[[:word:]]+\s*;]]></pattern>
+			</header>
+         <identification.name>	
+            <pattern><![CDATA[^(?i)\s*\bDATA\b\s+]]></pattern>
+            <value><![CDATA[([[:word:]]+)]]></value>
+         </identification.name>
+         <endwithoutbody><![CDATA[[[ ]|[\t]|;|[\r\n]|[\t]]]]></endwithoutbody>
+		</BaseSAS_Data>
+        
+		<BaseSAS_Macro>
+			<header>
+				 <pattern><![CDATA[^[[:space:]]*(%((?i)MACRO[[:space:]][[:word:]]+)[\([:word:]\,\)[:space:]]+[[:space:]]*;)]]></pattern>
+			</header>
+         <identification.name>	
+            <pattern><![CDATA[^[[:space:]]*(%((?i)MACRO[[:space:]]))]]></pattern>
+            <value><![CDATA[([[:word:]]+)]]></value>
+         </identification.name>
+         <!--endwithoutbody><![CDATA[[[ ]|[\t]|;|[\r\n]|[\t]]]]></endwithoutbody-->
+			<body>
+                <begin><![CDATA[\r\n]]></begin>
+				<end><![CDATA[\%((?i)MEND)+[[:space:]]+([[:word:]]+)*;]]></end>			
+				<nested>false</nested>
+			</body>
+		</BaseSAS_Macro>
+
+		<!--BaseSAS_Function>
+			<header>
+				 <pattern><![CDATA[\s+(\%)*[[:word:]]+[\(]]]></pattern>
+			</header>
+			<identification.name>
+				<pattern><![CDATA[\(]]></pattern>
+				<value><![CDATA[[[:word:]\#\&@\$\-]+]]><backward/></value>
+			</identification.name>
+            <endwithoutbody><![CDATA[[[ ]|[\t]|;|[\r\n]|[\t]]]]></endwithoutbody>
+		</BaseSAS_Function-->
+
+        
+        
+		<BaseSAS_Proc>
+			<header>
+				 <pattern><![CDATA[(?i)[[:space:]]+PROC[[:space:]]+(?!PRINT|SORT)]]></pattern>
+			</header>
+			<identification.name>
+				<pattern><![CDATA[([Pp][Rr][Oo][Cc])[[[:space:]]|[\.]]]></pattern>
+				<value><![CDATA[[[:word:]\#\&@\$\-]+]]></value>
+			</identification.name>
+         <endwithoutbody><![CDATA[[[ ]|[\t]|;|[\r\n]|[\t]]]]></endwithoutbody>
+		</BaseSAS_Proc>
+        
+    </types>
+        <links>
+
+        <!-- READ/GET FILE Link -->
+		<accessReadLink>
+				<pattern><![CDATA[(?i)(?i)^[[:space:]]*(INFILE)([[:space:]])+]]></pattern>
+				<callee><![CDATA[[[:word:]\#\&@\$\-\.]+]]></callee>
+		</accessReadLink>
+        
+        <!-- WRITE FILE Link -->
+		<accessWriteLink>
+				<pattern><![CDATA[(?i)^[[:space:]]*FILE[[:space:]]+]]></pattern>
+				<callee><![CDATA[[[:word:]\#\&@\$\-\.]+]]></callee>
+		</accessWriteLink>
+		
+
+        <!-- For PROC SORT READ/GET FILE Link -->
+		<accessReadLink>
+				<pattern><![CDATA[(?i)(^| |\t)PROC\s+SORT\s+DATA\s+=]]></pattern>
+				<callee><![CDATA[[A-Za-z0-9\#\&@\$\-\.]+]]></callee>
+		</accessReadLink>
+
+        <!-- FOR PROC PRINT WRITE FILE Link -->
+		<accessWriteLink>
+				<pattern><![CDATA[(?i)(^| |\t)PROC\s+PRINT\s+DATA\s+=]]></pattern>
+				<callee><![CDATA[[[:word:]\#\&@\$\-\.]+]]></callee>
+		</accessWriteLink>
+		
+
+        <callLink>
+
+        <!-- Call Macro Link -->
+				<pattern><![CDATA[(?i)^( |\t)*(\%)+(?!MEND|END|MACRO|LET|IF)]]></pattern>
+				<callee><![CDATA[[[:word:]]+\(]]></callee>
+        </callLink>
+	
+	</links>
+		
+</languagePattern>
