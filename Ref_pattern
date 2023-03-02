@@ -1,0 +1,3 @@
+pattern: DataSet[\s]+ds[\s]+=[\s]+dm\.GetDataSet\("([a-zA-Z0-9+]+)"
+\1
+
