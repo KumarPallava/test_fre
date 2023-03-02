@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:batch="http://www.springframework.org/schema/batch"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+		http://www.springframework.org/schema/batch
+		http://www.springframework.org/schema/batch/spring-batch-3.0.xsd
+		http://www.springframework.org/schema/util
+    	http://www.springframework.org/schema/util/spring-util-4.3.xsd">
+
+	<bean id="TED27748RattrapagePDAMotifDebut501" class="fr.dsirc.dsn.batch.sup.ted.ted27748RattrapagePDAMotifDebut501.TED27748RattrapagePDAMotifDebut501Tasklet"
+		scope="step">
+		<property name="mapRequete" ref="mapRequeteRattrapagePDAMotifDebut501" />
+		<property name="dataSource" ref="dataSourceMetier" />
+	</bean>
+
+	<util:map id="mapRequeteRattrapagePDAMotifDebut501" scope="step">
+
+		<!-- Selection des PDA avec comme motif_debut = '501' -->
+		<entry key="GetAppConfigByContext"
+			value="SELECT	CONFIG_CNTXT, CONFIG_NAME, CONFIG_VAL
+				FROM	SWB_APP_CONFIG
+				WHERE   CONFIG_CNTXT = ?" /> 
+
+		<!-- MAJ des PDA erronees  -->
+		<entry key="GetClosing"
+			value="SELECT     LO_TEXT, CUST_TEXT
+			FROM         SWB_REQ_CLOSING
+			WHERE     (RANK = ?) AND (WRK_TYPE = ?)" />
+
+		<!-- MAJ des VMPA associées  -->
+		<entry key="GetAttachments"
+			value="SELECT     SWB_WRK_TYPE_ATTACHMENTS.WRK_TYPE, SWB_WRK_TYPE_ATTACHMENTS.REASON_NAME, 
+                      SWB_WRK_TYPE_ATTACHMENTS.SOURCE_SYSTEM, SWB_WRK_TYPE_ATTACHMENTS.NO_COPIES, 
+                      SWB_WRK_TYPE_ATTACHMENTS.RECIPIENT, SWB_WRK_TYPE_ATTACHMENTS.STATE, 
+                      SWB_LTR_ATTACHMENTS.FORM_NAME, SWB_LTR_ATTACHMENTS.FORM_DESCRIPTION, 
+                      SWB_WRK_TYPE_ATTACHMENTS.FORM_ID
+			FROM         SWB_WRK_TYPE_ATTACHMENTS, SWB_LTR_ATTACHMENTS
+			WHERE     SWB_WRK_TYPE_ATTACHMENTS.FORM_ID = SWB_LTR_ATTACHMENTS.FORM_ID AND 
+                      (SWB_WRK_TYPE_ATTACHMENTS.WRK_TYPE = ?) AND 
+                      (SWB_LTR_ATTACHMENTS.FORM_ENABLED = 'Y')" />
+
+		<!--  Insertion des PDI  -->
+		<entry key="GetPrintOptionsByWorkTypeDocmType"
+			value="SELECT     CORR_TYPE.CORR_TYPE_ID, CORR_TYPE.CORR_DESC, CORR_TYPE.DFS_INTG_IND, 
+								PRT_OPT.PRT_OPT_ID, PRT_OPT.PRT_OPT_DESC, CORR_PRT_OPT_ALLW.VCSR_PRT_OPT_IND, 
+								CORR_PRT_OPT_ALLW.CHG_ALLW_IND, CORR_PRT_OPT_ALLW.DFLT_PRT_OPT_IND, 
+								PRT_METH.PRT_METH_ID, PRT_METH.PRT_METH_DESC, 
+								CORR_PRT_METH_ALLW.VCSR_PRT_METH_IND, CORR_PRT_METH_ALLW.DFLT_PRT_METH_IND
+			FROM         CORR_PRT_METH_ALLW, PRT_METH, CORR_PRT_OPT_ALLW, PRT_OPT, 
+								CORR_TYPE
+			WHERE     CORR_PRT_METH_ALLW.PRT_METH_ID = PRT_METH.PRT_METH_ID AND 
+								CORR_PRT_METH_ALLW.PRT_OPT_ID = CORR_PRT_OPT_ALLW.PRT_OPT_ID AND 
+								CORR_PRT_METH_ALLW.CORR_TYPE_ID = CORR_PRT_OPT_ALLW.CORR_TYPE_ID AND 
+								CORR_PRT_OPT_ALLW.PRT_OPT_ID = PRT_OPT.PRT_OPT_ID AND 
+								CORR_PRT_OPT_ALLW.CORR_TYPE_ID = CORR_TYPE.CORR_TYPE_ID AND 
+								(CORR_TYPE.WRK_TYPE = ?) AND (CORR_TYPE.DOCM_TYPE_ID = ?)" />
+
+		<!-- Insertion des VMPI  -->
+		<entry key="GetPrintOptionsByCorrType"
+			value="SELECT     CORR_TYPE.CORR_DESC, CORR_TYPE.DFS_INTG_IND, PRT_OPT.PRT_OPT_ID, 
+                      PRT_OPT.PRT_OPT_DESC, CORR_PRT_OPT_ALLW.VCSR_PRT_OPT_IND, 
+                      CORR_PRT_OPT_ALLW.CHG_ALLW_IND, CORR_PRT_OPT_ALLW.DFLT_PRT_OPT_IND, 
+                      PRT_METH.PRT_METH_ID, PRT_METH.PRT_METH_DESC, 
+                      CORR_PRT_METH_ALLW.VCSR_PRT_METH_IND, CORR_PRT_METH_ALLW.DFLT_PRT_METH_IND, 
+                      CORR_TYPE.WRK_TYPE, CORR_TYPE.DOCM_TYPE_ID
+				FROM         CORR_PRT_METH_ALLW, PRT_METH, PRT_OPT, CORR_PRT_OPT_ALLW, 
+                      CORR_TYPE
+				WHERE     CORR_PRT_METH_ALLW.PRT_METH_ID = PRT_METH.PRT_METH_ID AND 
+                      CORR_PRT_METH_ALLW.PRT_OPT_ID = CORR_PRT_OPT_ALLW.PRT_OPT_ID AND 
+                      CORR_PRT_METH_ALLW.CORR_TYPE_ID = CORR_PRT_OPT_ALLW.CORR_TYPE_ID AND 
+                      PRT_OPT.PRT_OPT_ID = CORR_PRT_OPT_ALLW.PRT_OPT_ID AND 
+                      CORR_PRT_OPT_ALLW.CORR_TYPE_ID = CORR_TYPE.CORR_TYPE_ID AND 
+                      (CORR_TYPE.CORR_TYPE_ID = ?)" />
+
+		<!--  Insertion des liens VMPI-VMPA  -->
+		<entry key="GetPrintMethods"
+			value="SELECT  CORR_TYPE.WRK_TYPE, CORR_TYPE.DOCM_TYPE_ID, CORR_TYPE.CORR_DESC, 
+                      CORR_TYPE.DFS_INTG_IND, CORR_PRT_METH_ALLW.VCSR_PRT_METH_IND, 
+                      CORR_PRT_METH_ALLW.DFLT_PRT_METH_IND, PRT_METH.PRT_METH_ID, 
+                      PRT_METH.PRT_METH_DESC
+				FROM  CORR_TYPE, CORR_PRT_OPT_ALLW, CORR_PRT_METH_ALLW, PRT_METH
+				WHERE CORR_TYPE.CORR_TYPE_ID = CORR_PRT_OPT_ALLW.CORR_TYPE_ID AND 
+                      CORR_PRT_OPT_ALLW.CORR_TYPE_ID = CORR_PRT_METH_ALLW.CORR_TYPE_ID AND 
+                      CORR_PRT_OPT_ALLW.PRT_OPT_ID = CORR_PRT_METH_ALLW.PRT_OPT_ID AND 
+                      CORR_PRT_METH_ALLW.PRT_METH_ID = PRT_METH.PRT_METH_ID AND 
+                      (CORR_TYPE.CORR_TYPE_ID = ?) AND (CORR_PRT_OPT_ALLW.PRT_OPT_ID = ?)" />
+
+		<!--  Insertion de l historisation statut PDI  -->
+		<entry key="GetWorkTypes"
+			value="SELECT WRK_TYPE, WRK_TYPE_DESC FROM AWD_WRK_TYPE" />
+
+		<!-- Insertion de l historisation statut VMPI  -->
+		<entry key="GetDocTypes"
+			value="SELECT DOCM_TYPE_ID, DOCM_TYPE_DESC FROM DOCM_TYPE" />
+
+		<!-- Selection des derniere commRNGD en lien avec les VMPA corrigees -->
+		<entry key="GetBeneExceptions"
+			value="SELECT ExceptionText from aspft004_Exception where EntrCd = @EntrCd and Id = @Id and System = 'CB'" />
+			
+				<!--  Insertion de l historisation statut PDI  -->
+		<entry key="GetFREDExceptions"
+			value="SELECT ExceptionText from SWB_Exceptions where apid = @apId and WorkType=@Worktype" />
+
+		<!-- Insertion de l historisation statut VMPI  -->
+		<entry key="GetSPNameExceptions"
+			value="SELECT ExceptionText from aspft004_Exception where EntrCd = @EntrCd and Id = @Id and System = 'CB'" />
+
+		<!-- Selection des derniere commRNGD en lien avec les VMPA corrigees -->
+		<entry key="GetSPNameChgExceptions"
+			value="SELECT ExceptionText from aspft004_Exception where EntrCd = @EntrCd and Id = @Id and System = 'SN'" />
+
+		<entry key="GetBenePath"
+			value="select EntrCd, Id, TransServer, TransShare, TransPath, TransFile from aspft001_trans where CoCd = @CoCode and PolNum = @PolNo and System = 'CB' ORDER BY PrintDt DESC" />
+			
+				<!--  Insertion de l historisation statut PDI  -->
+		<entry key="GetSmartpadTransFilePath"
+			value="select TransServer, TransShare, TransPath, TransFile from aspft001_trans where EntrCd = @EntrCd and Id = @Id and System = @SysId ORDER BY PrintDt DESC" />
+
+		<entry key="Get3rRelated"
+			value="SELECT C.COMPANY_NAME,
+ C.CONTRACT_NUMBER, 
+ B.FIRST_NAME, 
+ B.MIDDLE_NAME,
+ B.SURNAME,
+ B.SUFFIX,
+ CS.NATIONAL_IDENTIFICATION_NUMBER, 
+ AD.ADDRESS_LINE_1,
+ AD.ADDRESS_LINE_2, 
+ AD.ADDRESS_LINE_3, 
+ AD.ADDRESS_LINE_4, 
+ AD.ADDRESS_LINE_5, 
+ AD.POST_CODE,
+ C.Z_CP_COMPONENTID 
+ FROM CONT_PARTPNT A,
+ CLIENT_STUB CS,
+ CLIENT_PERSONAL B, 
+ CLIENT_PRODUCT C, 
+ ADDRESS AD
+ WHERE C.CONTRACT_NUMBER = ? 
+ AND C.COMPANY_NAME = ?
+ AND A.CLIENT_ID = B.CLIENT_ID 
+ AND A.CLIENT_PR_ID = C.CLIENT_PR_ID 
+ AND A.CLIENT_ID = CS.CLIENT_ID
+ AND A.CLIENT_ID = AD.CLIENT_ID" />
+			
+			
+		<!-- Insertion de l historisation statut commRNGD  -->
+		<entry key="Get3RPolicy"
+			value="SELECT cmp.source,  cp.company_name, cp.contract_number, 
+    ps.name, cp.z_cp_state FROM client_product cp, component cmp, policy_status ps 
+                where cp.z_cp_componentid =  cmp.componentid (+) 
+                AND cp.policy_status =  ps.reference_id (+) 
+                AND cp.client_pr_id = ?" />
+		
+		<!-- Insertion des AnoCommRngd  -->
+		<entry key="Get3RContact"
+			value="SELECT Distinct cc.Contact_Date , cp.first_name, cp.surname, cp.suffix, zcc.z_name,
+    cc.userid, cc.contact_comments,  cc.contact_id 
+            From Client_Contact cc,  Client_personal cp, z_caller_classification_type zcc,
+                Req_Service rs 
+                Where rs.client_pr_id = ? AND rs.contact_id = cc.contact_id 
+     AND cc.client_id = cp.client_id AND zcc.z_reference_id (+) = cc.z_caller_classification_id
+                Order by cc.contact_date desc" />
+				
+						<!-- Insertion de l historisation statut commRNGD  -->
+		<entry key="Get3RTransaction"
+			value="SELECT cc.contact_id,st.name, rs.comments 
+                FROM req_service rs, client_contact cc,  service_type st 
+                Where rs.contact_id = cc.contact_id AND  rs.service_type_id =  st.reference_id (+)
+                AND cc.contact_id = ?" />
+		
+		<!-- Insertion des AnoCommRngd  -->
+		<entry key="GetTerminatedPolicy"
+			value="Select Tp.Reason_For_Termination,
+        Round(Tp.Conversion_Date - Tp.Date_Of_Termination) As Termdays,
+        To_Char(Tp.Date_Of_Termination,'mm/dd/yyyy') As Date_Of_Termination,
+        To_Char(Tp.Date_Of_Birth,'mm/dd/yyyy') As Date_Of_Birth,
+        Tp.LAST_NAME,
+        Tp.First_Name,
+        Tp.Middle_Initial,
+        Tp.SSN,
+        Tp.policy_number
+        From Client3r.Terminated_Policy Tp
+        where tp.company_code = ? and ltrim(trim(policy_number),'0') =?" />
+
+		<entry key="GetExpertMode"
+			value="SELECT req.mode_cd FROM swb_form_req_mode req, swb_wrk_type_impl wti
+		WHERE req.wrk_type_num = wti.wrk_type_num AND req.swb_user = ? AND wti.wrk_type_desc = ?" />
+
+		<entry key="SWB_WRK_TYPE_IMPL"
+			value="SELECT wrk_type_desc FROM swb_wrk_type_impl wti
+		WHERE wti.wrk_type_num > 0" />		
+		
+		<entry key="GetAwdSourceFileTypes"
+			value="SELECT NAME, DESC FROM SWB.AWD_SRCE_TYPE" />		
+		
+		<entry key="GetFCServiceAgentChg"
+			value="SELECT FIRST_NAME,LAST_NAME,MIDDLE_NAME,SERVICING_AGENT
+                  FROM Sor_Fc_Awd.FC_AWD_SERVICINGAGENTS
+                  WHERE   (APID = ?) AND (COMPANY_CODE = ?) AND (POLICY_NUMBER = ?)" />		
+		
+
+
+	</util:map>
+
+</beans>
