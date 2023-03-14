@@ -1,0 +1,558 @@
+ 2023-03-13 11:10:54.945331	Information	MODULMSG ; Job execution	64-bit environment	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:54.945331	Information	MODULMSG ; Job execution	CAIP Version: CAST 8.3.48 ( Build 10597 )	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:54.945331	Information	MODULMSG ; Job execution	LISA folder: C:\ProgramData\CAST\CAST\CASTMS	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:54.945331	Information	MODULMSG ; Job execution	LTSA folder: C:\ProgramData\CAST\CAST\CASTMS	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:54.946307	Information	MODULMSG ; Job execution	LSA relative folder: 8f7b3aa31027440b92b6e5f7a0837650\Scr74768a468a4f4658b1de149439c5d02f	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:54.950325	Information	MODULMSG ; Job execution	Connection Profiles read from 'C:\ProgramData\CAST\CAST\8.3\CWProfileConnection.INI'.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:55.038306	Information	MODULMSG ; Job execution	Using Knowledge Base on schema bhub_local.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:55.042303	Information	MODULMSG ; Job execution	WARNING! Your global customer key will expire in 8 days.
+Please contact CAST to obtain a new global customer key.
+To contact CAST, see Help | About.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:55.348687	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.xset 1.0.0-funcrel.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:55.348687	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.applicationinformation 1.0.1-funcrel.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:55.348687	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.automaticlinksvalidator 1.0.10-funcrel.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:55.348687	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.coremetrics 1.0.0-funcrel.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:55.348687	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.dmtgenericfilediscoverer 1.0.2.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:55.348687	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.internal.platform 0.9.14.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:55.349684	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.jee 1.3.10-funcrel.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:55.349684	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.labs.cicsdataset.to.jcldataset 1.0.1.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:55.349684	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.labs.cobol.swcopy.update 1.0.11.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:55.349684	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.labs.ctl.link 1.0.30.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:55.349684	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.labs.zos.basesas 1.0.2.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:55.349684	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.mainframe 1.0.23-funcrel.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:55.349684	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.omg-ascqm-index 20230130.0.0-funcrel.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:55.349684	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.qualitystandards 20230313.0.0-funcrel.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:55.349684	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.sqlanalyzer 3.6.7-funcrel.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:55.349684	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.systemlevelrules 1.1.3-funcrel.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:55.349684	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.uc.AnalysisCompletenessReport 1.0.3.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:55.349684	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.uc.asmzos 1.1.17.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:55.349684	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.wbslinker 1.7.21-funcrel.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:55.405752	Information	MODULMSG ; Job execution	Loading meta model from repository . . .	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:56.326208	Information	MODULMSG ; Job execution	Meta model loaded.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.110879	Information	MODULMSG ; Job execution	RunAnalysis started	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.118879	Information	MODULMSG ; Job execution	CICS File Extensions : *.csd;*.cics;*.bms	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.118879	Information	MODULMSG ; Job execution	Cobol File Extensions : *.cob;*.cbl;*.pco;*.sqb;*.cpy;*.cop;*.cpb	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.118879	Information	MODULMSG ; Job execution	Source Code in Free-Form Format : 1	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.118879	Information	MODULMSG ; Job execution	Source code can be placed beyond column 72 : 0	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.119879	Information	MODULMSG ; Job execution	Exclude copybook files : 1	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.119879	Information	MODULMSG ; Job execution	Column of Indicator Area : 7	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.119879	Information	MODULMSG ; Job execution	Use source file name for programs : 0	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.119879	Information	MODULMSG ; Job execution	Column for Indicator Area : 1	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.119879	Information	MODULMSG ; Job execution	Analysis Unit description : 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.119879	Information	MODULMSG ; Job execution	Platform: IBM z/OS : 1	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.119879	Information	MODULMSG ; Job execution	IMS File Extensions : *.dbd;*.psb;*.tra;*.mfs	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.119879	Information	MODULMSG ; Job execution	JCL File Extensions : *.jcl;*.prc;*.mbr;*.inc	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.119879	Information	MODULMSG ; Job execution	Name : BHUB	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.119879	Information	MODULMSG ; Job execution	Tabular Length : 8	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.119879	Information	MODULMSG ; Job execution	Working Folders	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.119879	Information	MODULMSG ; Job execution	Custom Environment Profiles	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.119879	Information	MODULMSG ; Job execution	Source files	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.119879	Information	MODULMSG ; Job execution		File Path : C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.119879	Information	MODULMSG ; Job execution		Permission : Include	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.119879	Information	MODULMSG ; Job execution	Use custom configuration	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.119879	Information	MODULMSG ; Job execution	Paragraph Cyclic Call Detection - String Concatenation : 20	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.119879	Information	MODULMSG ; Job execution	Paragraph Cyclic Call Detection - Procedure Call Depth : 20	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.119879	Information	MODULMSG ; Job execution	Paragraph Cyclic Call Detection - Local Procedure Complexity : 20	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.119879	Information	MODULMSG ; Job execution	Dynamic Call Resolution and Paragraph Call Graph - String Concatenation : 1000	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.119879	Information	MODULMSG ; Job execution	Dynamic Call Resolution and Paragraph Call Graph - Procedure Call Depth : 500	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.119879	Information	MODULMSG ; Job execution	Number of Instances : 200000	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.119879	Information	MODULMSG ; Job execution	Open in Loop Detection - Procedure Call Depth : 10	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.119879	Information	MODULMSG ; Job execution	Open in Loop Detection - String Concatenation : 10	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.119879	Information	MODULMSG ; Job execution	Save Data found in copy books : 0	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.119879	Information	MODULMSG ; Job execution	Save Sections and Paragraphs : 1	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.119879	Information	MODULMSG ; Job execution	Un-initialized Variable Detection - Local Procedure Complexity : 20	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.119879	Information	MODULMSG ; Job execution	Un-initialized Variable Detection - Procedure Call Depth : 20	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.119879	Information	MODULMSG ; Job execution	Use Inference Engine : 1	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.119879	Information	MODULMSG ; Job execution	Data Structures : Do not save data	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.120874	Information	MODULMSG ; Job execution	Activate AMT Memory Profiling : 0	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.120874	Information	MODULMSG ; Job execution	Activate Inference Engine technical log : 0	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.120874	Information	MODULMSG ; Job execution	Activate Inference Engine traces : 0	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.120874	Information	MODULMSG ; Job execution	Activate Metrics traces : 0	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.120874	Information	MODULMSG ; Job execution	Include debug messages : 0	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.120874	Information	MODULMSG ; Job execution	Skip Metrics compute : 0	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.120874	Information	MODULMSG ; Job execution	Skip analysis result save : 0	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.120874	Information	MODULMSG ; Job execution	Show SQL : 0	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.120874	Information	MODULMSG ; Job execution	SESSION CONTEXT details:
+351 ; 54754 = "BHUB"."BHUB_36692"	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.120874	Information	MODULMSG ; Job execution	About to run JOB_MAINFRAME_ANALYZER job 'BHUB_36692'.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.145875	Information	MODULMSG ; Job execution	Total physical memory: 64895 MB.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.147865	Information	MODULMSG ; Job execution	Validation successful.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:57.403864	Information	MODULMSG ; Job execution	Creating process `"C:\ProgramData\CAST\CAST\Extensions\com.castsoftware.mainframe.1.0.23-funcrel\MainframeCmd.exe" "C:\ProgramData\CAST\CAST\CASTMS\LISA\8f7b3aa31027440b92b6e5f7a0837650\Scr74768a468a4f4658b1de149439c5d02f\MainframeCmd.xml"'	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:59.472824	Information	MODULMSG ; Job execution	Using Knowledge Base on schema bhub_local.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:10:59.472824	Information	MODULMSG ; Job execution	Loading meta model from repository . . .	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:11:00.413365	Information	MODULMSG ; Job execution	Meta model loaded.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:11:00.453447	Information	MODULMSG ; Job execution	Total physical memory: 64895 MB.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:11:01.610223	Information	MODULMSG ; Job execution	[MAv2] Loading. . .	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:11:04.861123	Information	MODULMSG ; Job execution	External link component has loaded 44 objects	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:11:05.617793	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.xset 1.0.0-funcrel.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:11:05.617793	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.applicationinformation 1.0.1-funcrel.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:11:05.617793	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.automaticlinksvalidator 1.0.10-funcrel.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:11:05.617793	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.coremetrics 1.0.0-funcrel.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:11:05.617793	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.dmtgenericfilediscoverer 1.0.2.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:11:05.617793	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.internal.platform 0.9.14.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:11:05.617793	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.jee 1.3.10-funcrel.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:11:05.617793	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.labs.cicsdataset.to.jcldataset 1.0.1.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:11:05.617793	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.labs.cobol.swcopy.update 1.0.11.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:11:05.617793	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.labs.ctl.link 1.0.30.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:11:05.617793	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.labs.zos.basesas 1.0.2.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:11:05.617793	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.mainframe 1.0.23-funcrel.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:11:05.618813	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.omg-ascqm-index 20230130.0.0-funcrel.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:11:05.618813	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.qualitystandards 20230313.0.0-funcrel.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:11:05.618813	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.sqlanalyzer 3.6.7-funcrel.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:11:05.618813	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.systemlevelrules 1.1.3-funcrel.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:11:05.618813	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.uc.AnalysisCompletenessReport 1.0.3.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:11:05.618813	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.uc.asmzos 1.1.17.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:11:05.618813	Information	MODULMSG ; Job execution	Registering extension com.castsoftware.wbslinker 1.7.21-funcrel.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:11:54.326964		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Job PIPB906 File (4/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB906.jcl
+ 2023-03-13 11:11:54.366953		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Job PIPB904F File (5/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB904F.jcl
+ 2023-03-13 11:11:54.375074		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Job PIPB901F File (6/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB901F.jcl
+ 2023-03-13 11:11:54.380986		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Job PIPB900 File (7/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB900.jcl
+ 2023-03-13 11:11:54.392012		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Job PIPB870 File (8/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB870.jcl
+ 2023-03-13 11:11:54.413944		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Job PIPB866 File (9/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB866.jcl
+ 2023-03-13 11:11:54.455940		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Job PIPB865 File (10/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB865.jcl
+ 2023-03-13 11:11:54.472978		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Job PIPB863 File (11/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB863.jcl
+ 2023-03-13 11:11:54.504929		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Job PIPB862 File (12/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB862.jcl
+ 2023-03-13 11:11:54.521932		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Job PIPB860 File (13/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB860.jcl
+ 2023-03-13 11:11:54.532978		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Job PIPB850 File (14/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB850.jcl
+ 2023-03-13 11:11:54.555953		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Job PIPB839B File (15/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB839B.jcl
+ 2023-03-13 11:11:54.583918		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Job PIPB839 File (16/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB839.jcl
+ 2023-03-13 11:11:54.598926		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Job PIPB838 File (17/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB838.jcl
+ 2023-03-13 11:11:54.605927		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Job PIPB835 File (18/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB835.jcl
+ 2023-03-13 11:11:54.616917		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Job PIPB833 File (19/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB833.jcl
+ 2023-03-13 11:11:54.629925		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Job PIPB831 File (20/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB831.jcl
+ 2023-03-13 11:11:54.691619		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Job PIPB720 File (21/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB720.jcl
+ 2023-03-13 11:11:54.704609		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Job PIPB485 File (22/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB485.jcl
+ 2023-03-13 11:11:54.720606		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Job PIPB480 File (23/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB480.jcl
+ 2023-03-13 11:11:54.775488		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Job PIPB470 File (24/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB470.jcl
+ 2023-03-13 11:11:54.877307		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Job PIPB465 File (25/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB465.jcl
+ 2023-03-13 11:11:54.896306		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Job PIPB460 File (26/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB460.jcl
+ 2023-03-13 11:11:54.984288		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Job PIPB451 File (27/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB451.jcl
+ 2023-03-13 11:11:54.987286		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Job PIPB450A File (28/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB450A.jcl
+ 2023-03-13 11:11:55.000289		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Job PIPB450 File (29/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB450.jcl
+ 2023-03-13 11:11:55.042307		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Job PIPB420 File (30/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB420.jcl
+ 2023-03-13 11:11:55.079281		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Job PIPB410 File (31/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB410.jcl
+ 2023-03-13 11:11:55.123270		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Job PIPB400 File (32/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB400.jcl
+ 2023-03-13 11:11:55.137275		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Job PIPB280 File (33/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB280.jcl
+ 2023-03-13 11:11:55.140275		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Job PIPB150 File (34/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB150.jcl
+ 2023-03-13 11:11:55.154284		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Job PIPB120 File (35/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB120.jcl
+ 2023-03-13 11:11:55.164308		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Job PIPB110 File (36/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB110.jcl
+ 2023-03-13 11:11:55.181295		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Job PIPB060 File (37/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB060.jcl
+ 2023-03-13 11:11:55.235266		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Job PIPB020 File (38/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB020.jcl
+ 2023-03-13 11:11:55.297249		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Procedure DUPREPT File (43/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\DUPREPT.prc
+ 2023-03-13 11:11:55.337243		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Procedure DUPREPT1 File (42/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\DUPREPT1.prc
+ 2023-03-13 11:11:55.352255		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Procedure EZTPCG File (41/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\EZTPCG.prc
+ 2023-03-13 11:11:55.355240		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Procedure FLASFTP File (40/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\FLASFTP.prc
+ 2023-03-13 11:11:55.387236		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Procedure MAINMAIL File (39/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\MAINMAIL.prc
+ 2023-03-13 11:11:55.511282		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Procedure PROCENW0 File (3/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\SASE.prc
+ 2023-03-13 11:11:55.518301		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Procedure SORTD File (2/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\SORTD.prc
+ 2023-03-13 11:11:55.521272		MODULMSG ; Job execution	Mainframe.12: Analyzing JCL Procedure SSHBATCH File (1/43).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\SSHBATCH.prc
+ 2023-03-13 11:11:58.058659	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Cobol Program 'PARMFILE'. 	0 ; 0	0		0	[Module name]	60	1		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\SSHBATCH.prc
+ 2023-03-13 11:11:58.067666	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Cobol Program 'BPXBATSL'. 	0 ; 0	0		0	[Module name]	2	1		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\SSHBATCH.prc
+ 2023-03-13 11:11:58.071662	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Cobol Program 'ABORT'. 	0 ; 0	0		0	[Module name]	17	1		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\SORTD.prc
+ 2023-03-13 11:11:58.073664	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Cobol Program 'IERRCO00'. 	0 ; 0	0		0	[Module name]	2	1		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\SORTD.prc
+ 2023-03-13 11:11:58.078654	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Cobol Program 'SASB'. 	0 ; 0	0		0	[Module name]	9	1		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\SASE.prc
+ 2023-03-13 11:11:58.080646	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Cobol Program 'MAINMAIL'. 	0 ; 0	0		0	[Module name]	2	1		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\MAINMAIL.prc
+ 2023-03-13 11:11:58.105640	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Cobol Program 'WAIT'. 	0 ; 0	0		0	[Module name]	84	1		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\FLASFTP.prc
+ 2023-03-13 11:11:58.106639	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Cobol Program 'FLASFTP'. 	0 ; 0	0		0	[Module name]	2	1		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\FLASFTP.prc
+ 2023-03-13 11:11:58.109639	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Cobol Program 'EASYPLUS'. 	0 ; 0	0		0	[Module name]	5	1		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\EZTPCG.prc
+ 2023-03-13 11:11:58.121639	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Cobol Program 'ANYRECS'. 	0 ; 0	0		0	[Module name]	10	1		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\DUPREPT1.prc
+ 2023-03-13 11:11:58.144657	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Cobol Program 'DFHEBFLR'. 	0 ; 0	0		0	[Module name]	188	1		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB020.jcl
+ 2023-03-13 11:11:58.145728	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Cobol Program 'DFHJUP'. 	0 ; 0	0		0	[Module name]	159	1		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB020.jcl
+ 2023-03-13 11:11:58.147702	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Cobol Program 'KDATALOG'. 	0 ; 0	0		0	[Module name]	65	1		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB020.jcl
+ 2023-03-13 11:11:58.150639	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Cobol Program 'PSCOPY'. 	0 ; 0	0		0	[Module name]	25	1		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB400.jcl
+ 2023-03-13 11:11:58.152633	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Cobol Program 'AFCP2016'. 	0 ; 0	0		0	[Module name]	458	1		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB420.jcl
+ 2023-03-13 11:11:58.163688	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Cobol Program 'IUPS016A'. 	0 ; 0	0		0	[Module name]	198	1		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB831.jcl
+ 2023-03-13 11:11:58.170639	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Cobol Program 'PTLDRIVM'. 	0 ; 0	0		0	[Module name]	3	1		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\PIPB900.jcl
+ 2023-03-13 11:11:58.174633		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook CWACOB File (1/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\CWACOB.cpy
+ 2023-03-13 11:11:58.182640		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook DB2BAT File (2/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\DB2BAT.cpy
+ 2023-03-13 11:11:58.183644		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook DB2WS File (3/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\DB2WS.cpy
+ 2023-03-13 11:11:58.184636		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook DFHAID File (4/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\DFHAID.cpy
+ 2023-03-13 11:11:58.186632		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook DFHBMSCA File (5/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\DFHBMSCA.cpy
+ 2023-03-13 11:11:58.188633		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook DTCOVR File (6/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\DTCOVR.cpy
+ 2023-03-13 11:11:58.189636		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook DTSRCH File (7/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\DTSRCH.cpy
+ 2023-03-13 11:11:58.191635		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook FPMF0575 File (8/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\FPMF0575.cpy
+ 2023-03-13 11:11:58.206661		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook FPMK2350 File (9/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\FPMK2350.cpy
+ 2023-03-13 11:11:58.209669		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook FPMK2360 File (10/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\FPMK2360.cpy
+ 2023-03-13 11:11:58.211636		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook FPMK2380 File (11/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\FPMK2380.cpy
+ 2023-03-13 11:11:58.213641		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook FPMK2390 File (12/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\FPMK2390.cpy
+ 2023-03-13 11:11:58.215636		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook ICEK0060 File (13/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\ICEK0060.cpy
+ 2023-03-13 11:11:58.216637		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IDB001A File (14/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IDB001A.cpy
+ 2023-03-13 11:11:58.217637		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IKRK4030 File (15/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IKRK4030.cpy
+ 2023-03-13 11:11:58.219637		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IKRK4040 File (16/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IKRK4040.cpy
+ 2023-03-13 11:11:58.220638		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IKRK4050 File (17/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IKRK4050.cpy
+ 2023-03-13 11:11:58.221635		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IKRK4950 File (18/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IKRK4950.cpy
+ 2023-03-13 11:11:58.222641		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook ILBK0006 File (19/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\ILBK0006.cpy
+ 2023-03-13 11:11:58.225650		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook ILBK0007 File (20/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\ILBK0007.cpy
+ 2023-03-13 11:11:58.226642		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IMAP001 File (21/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IMAP001.cpy
+ 2023-03-13 11:11:58.227639		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPB800A File (22/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPB800A.cpy
+ 2023-03-13 11:11:58.230626		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPB810A File (23/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPB810A.cpy
+ 2023-03-13 11:11:58.232625		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPB820A File (24/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPB820A.cpy
+ 2023-03-13 11:11:58.235629		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPB830A File (25/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPB830A.cpy
+ 2023-03-13 11:11:58.237682		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPB840A File (26/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPB840A.cpy
+ 2023-03-13 11:11:58.241645		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPB850A File (27/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPB850A.cpy
+ 2023-03-13 11:11:58.243645		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPB860A File (28/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPB860A.cpy
+ 2023-03-13 11:11:58.246622		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPB870A File (29/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPB870A.cpy
+ 2023-03-13 11:11:58.248622		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPB880A File (30/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPB880A.cpy
+ 2023-03-13 11:11:58.250621		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK4100 File (31/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK4100.cpy
+ 2023-03-13 11:11:58.251626		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK4101 File (32/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK4101.cpy
+ 2023-03-13 11:11:58.252622		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK4200 File (33/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK4200.cpy
+ 2023-03-13 11:11:58.253626		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK4540 File (34/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK4540.cpy
+ 2023-03-13 11:11:58.254623		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK4570 File (35/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK4570.cpy
+ 2023-03-13 11:11:58.255676		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK4600 File (36/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK4600.cpy
+ 2023-03-13 11:11:58.257660		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK4610 File (37/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK4610.cpy
+ 2023-03-13 11:11:58.258632		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK4620 File (38/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK4620.cpy
+ 2023-03-13 11:11:58.259617		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK4630 File (39/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK4630.cpy
+ 2023-03-13 11:11:58.261622		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK4640 File (40/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK4640.cpy
+ 2023-03-13 11:11:58.263623		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK4650 File (41/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK4650.cpy
+ 2023-03-13 11:11:58.264622		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK4651 File (42/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK4651.cpy
+ 2023-03-13 11:11:58.265620		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK4652 File (43/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK4652.cpy
+ 2023-03-13 11:11:58.269698		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK4653 File (44/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK4653.cpy
+ 2023-03-13 11:11:58.274617		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK4654 File (45/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK4654.cpy
+ 2023-03-13 11:11:58.277621		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK4655 File (46/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK4655.cpy
+ 2023-03-13 11:11:58.278619		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK4660 File (47/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK4660.cpy
+ 2023-03-13 11:11:58.281642		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK4670 File (48/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK4670.cpy
+ 2023-03-13 11:11:58.283654		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK4680 File (49/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK4680.cpy
+ 2023-03-13 11:11:58.287645		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK4690 File (50/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK4690.cpy
+ 2023-03-13 11:11:58.289624		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK4700 File (51/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK4700.cpy
+ 2023-03-13 11:11:58.291655		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK4701 File (52/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK4701.cpy
+ 2023-03-13 11:11:58.292624		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK4800 File (53/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK4800.cpy
+ 2023-03-13 11:11:58.293616		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK8301 File (54/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK8301.cpy
+ 2023-03-13 11:11:58.295620		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK8310 File (55/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK8310.cpy
+ 2023-03-13 11:11:58.297615		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK8320 File (56/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK8320.cpy
+ 2023-03-13 11:11:58.299641		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK8330 File (57/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK8330.cpy
+ 2023-03-13 11:11:58.301649		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK8340 File (58/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK8340.cpy
+ 2023-03-13 11:11:58.303646		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK8350 File (59/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK8350.cpy
+ 2023-03-13 11:11:58.304632		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK8380 File (60/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK8380.cpy
+ 2023-03-13 11:11:58.305616		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK8390 File (61/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK8390.cpy
+ 2023-03-13 11:11:58.307617		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK8500 File (62/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK8500.cpy
+ 2023-03-13 11:11:58.308613		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK8510 File (63/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK8510.cpy
+ 2023-03-13 11:11:58.309613		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK8540 File (64/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK8540.cpy
+ 2023-03-13 11:11:58.311615		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK8550 File (65/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK8550.cpy
+ 2023-03-13 11:11:58.312611		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK8580 File (66/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK8580.cpy
+ 2023-03-13 11:11:58.313619		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK8590 File (67/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK8590.cpy
+ 2023-03-13 11:11:58.314612		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK8650 File (68/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK8650.cpy
+ 2023-03-13 11:11:58.315617		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK8660 File (69/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK8660.cpy
+ 2023-03-13 11:11:58.316615		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK8670 File (70/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK8670.cpy
+ 2023-03-13 11:11:58.318676		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK8680 File (71/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK8680.cpy
+ 2023-03-13 11:11:58.320628		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK8690 File (72/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK8690.cpy
+ 2023-03-13 11:11:58.321622		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK8700 File (73/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK8700.cpy
+ 2023-03-13 11:11:58.322631		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK8710 File (74/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK8710.cpy
+ 2023-03-13 11:11:58.323617		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK871A File (75/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK871A.cpy
+ 2023-03-13 11:11:58.324623		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK8720 File (76/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK8720.cpy
+ 2023-03-13 11:11:58.327614		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK8990 File (77/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK8990.cpy
+ 2023-03-13 11:11:58.328619		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK9950 File (78/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK9950.cpy
+ 2023-03-13 11:11:58.330681		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK9960 File (79/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK9960.cpy
+ 2023-03-13 11:11:58.335647		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBK9990 File (80/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBK9990.cpy
+ 2023-03-13 11:11:58.337660		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol Program IPBR420 File (81/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR420.cob
+ 2023-03-13 11:11:58.882340	Information	MODULMSG ; Job execution	Starting External Link processing	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:11:59.643685	Information	MODULMSG ; Job execution	    Inference Engine Options	0 ; 0	0	infeng50\infengmanager.cpp	701	[Module name]	0	0		
+ 2023-03-13 11:11:59.644702	Information	MODULMSG ; Job execution	        Use Inference Engine=Yes	0 ; 0	0	infeng50\infengmanager.cpp	703	[Module name]	0	0		
+ 2023-03-13 11:11:59.644702	Information	MODULMSG ; Job execution	        Procedure Call Depth=500	0 ; 0	0	infeng50\infengmanager.cpp	708	[Module name]	0	0		
+ 2023-03-13 11:11:59.644702	Information	MODULMSG ; Job execution	        String Concatenation=1000	0 ; 0	0	infeng50\infengmanager.cpp	711	[Module name]	0	0		
+ 2023-03-13 11:11:59.644702	Information	MODULMSG ; Job execution	        Local Procedure Complexity=100000	0 ; 0	0	infeng50\infengmanager.cpp	714	[Module name]	0	0		
+ 2023-03-13 11:11:59.644702	Information	MODULMSG ; Job execution	        ACTIVATE_TRACE_INFENG=No	0 ; 0	0	infeng50\infengmanager.cpp	717	[Module name]	0	0		
+ 2023-03-13 11:12:00.054625	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Entry or program 'ABEND'. 	0 ; 0	0		0	[Module name]	4456	17		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR420.cob
+ 2023-03-13 11:12:00.060682	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Entry or program 'DSNTIAR'. 	0 ; 0	0		0	[Module name]	7	17		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\DB2BAT.cpy
+ 2023-03-13 11:12:00.705549	Information	MODULMSG ; Job execution	[MAv2] Processing in progress. . .	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:00.765554	Information	MODULMSG ; Job execution	[MAv3] Metric Assistant process launched	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:01.358289		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol Program IPBR450 File (82/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR450.cob
+ 2023-03-13 11:12:03.769388	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Entry or program 'IUME44G'. 	0 ; 0	0		0	[Module name]	8839	17		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR450.cob
+ 2023-03-13 11:12:05.544655		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol Program IPBR480 File (83/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR480.cob
+ 2023-03-13 11:12:06.250441		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol Program IPBR481 File (84/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR481.cob
+ 2023-03-13 11:12:06.414426		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol Program IPBR710 File (85/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR710.cob
+ 2023-03-13 11:12:06.491590	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP710O'. 	0 ; 0	0		0	[Module name]	32	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR710.cob
+ 2023-03-13 11:12:06.491590	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP710I'. 	0 ; 0	0		0	[Module name]	31	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR710.cob
+ 2023-03-13 11:12:06.586377		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol Program IPBR720 File (86/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR720.cob
+ 2023-03-13 11:12:07.171295		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol Program IPBR730 File (87/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR730.cob
+ 2023-03-13 11:12:07.422306	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'IPBN02O'. 	0 ; 0	0		0	[Module name]	39	49		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR730.cob
+ 2023-03-13 11:12:07.422306	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'IPBN01O'. 	0 ; 0	0		0	[Module name]	38	49		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR730.cob
+ 2023-03-13 11:12:07.423314	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'IPBN01I'. 	0 ; 0	0		0	[Module name]	37	49		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR730.cob
+ 2023-03-13 11:12:07.727996		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol Program IPBR730B File (88/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR730B.cob
+ 2023-03-13 11:12:07.823012	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'IPBN02O'. 	0 ; 0	0		0	[Module name]	14	47		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR730B.cob
+ 2023-03-13 11:12:07.823012	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'IPBN01O'. 	0 ; 0	0		0	[Module name]	13	47		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR730B.cob
+ 2023-03-13 11:12:07.823012	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'IPBN01I'. 	0 ; 0	0		0	[Module name]	12	47		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR730B.cob
+ 2023-03-13 11:12:07.953963		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol Program IPBR830 File (89/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR830.cob
+ 2023-03-13 11:12:08.468517		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol Program IPBR832 File (90/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR832.cob
+ 2023-03-13 11:12:09.720158	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Entry or program 'IUMV044'. 	0 ; 0	0		0	[Module name]	1680	17		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR832.cob
+ 2023-03-13 11:12:09.722165	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Entry or program 'IUMS027'. 	0 ; 0	0		0	[Module name]	4105	17		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR832.cob
+ 2023-03-13 11:12:10.760512		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol Program IPBR835 File (91/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR835.cob
+ 2023-03-13 11:12:11.170459		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol Program IPBR850 File (92/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR850.cob
+ 2023-03-13 11:12:12.957923		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol Program IPBR860 File (93/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR860.cob
+ 2023-03-13 11:12:13.517835		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol Program IPBR865 File (94/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR865.cob
+ 2023-03-13 11:12:14.013749		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol Program IPBR870 File (95/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR870.cob
+ 2023-03-13 11:12:14.237728		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol Program IPBR995 File (96/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.187171	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP237O'. 	0 ; 0	0		0	[Module name]	117	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.187171	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP237N'. 	0 ; 0	0		0	[Module name]	116	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.188161	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP237M'. 	0 ; 0	0		0	[Module name]	115	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.188161	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP237L'. 	0 ; 0	0		0	[Module name]	114	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.188161	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP237K'. 	0 ; 0	0		0	[Module name]	113	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.189163	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP237J'. 	0 ; 0	0		0	[Module name]	112	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.189163	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP237I'. 	0 ; 0	0		0	[Module name]	111	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.189163	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP237H'. 	0 ; 0	0		0	[Module name]	110	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.190160	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP237G'. 	0 ; 0	0		0	[Module name]	109	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.190160	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP237F'. 	0 ; 0	0		0	[Module name]	108	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.190160	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP237E'. 	0 ; 0	0		0	[Module name]	107	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.191163	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP237D'. 	0 ; 0	0		0	[Module name]	106	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.191163	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP237C'. 	0 ; 0	0		0	[Module name]	105	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.191163	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP237B'. 	0 ; 0	0		0	[Module name]	104	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.192160	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP237A'. 	0 ; 0	0		0	[Module name]	103	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.192160	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP238A'. 	0 ; 0	0		0	[Module name]	101	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.192160	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP236O'. 	0 ; 0	0		0	[Module name]	99	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.193152	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP236N'. 	0 ; 0	0		0	[Module name]	98	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.193152	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP236M'. 	0 ; 0	0		0	[Module name]	97	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.193152	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP236L'. 	0 ; 0	0		0	[Module name]	96	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.194157	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP236K'. 	0 ; 0	0		0	[Module name]	95	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.194157	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP236J'. 	0 ; 0	0		0	[Module name]	94	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.194157	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP236I'. 	0 ; 0	0		0	[Module name]	93	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.195160	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP236H'. 	0 ; 0	0		0	[Module name]	92	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.195160	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP236G'. 	0 ; 0	0		0	[Module name]	91	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.195160	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP236F'. 	0 ; 0	0		0	[Module name]	90	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.196159	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP236E'. 	0 ; 0	0		0	[Module name]	89	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.196159	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP236D'. 	0 ; 0	0		0	[Module name]	88	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.196159	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP236C'. 	0 ; 0	0		0	[Module name]	87	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.197160	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP236B'. 	0 ; 0	0		0	[Module name]	86	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.197160	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP236A'. 	0 ; 0	0		0	[Module name]	85	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.197160	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP997M'. 	0 ; 0	0		0	[Module name]	83	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.198161	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP997L'. 	0 ; 0	0		0	[Module name]	82	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.198161	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP997K'. 	0 ; 0	0		0	[Module name]	81	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.198161	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP997J'. 	0 ; 0	0		0	[Module name]	80	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.199157	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP997I'. 	0 ; 0	0		0	[Module name]	79	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.199157	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP997H'. 	0 ; 0	0		0	[Module name]	78	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.199157	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP997G'. 	0 ; 0	0		0	[Module name]	77	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.200172	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP997F'. 	0 ; 0	0		0	[Module name]	76	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.200172	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP997E'. 	0 ; 0	0		0	[Module name]	75	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.200172	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP997D'. 	0 ; 0	0		0	[Module name]	74	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.201175	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP997C'. 	0 ; 0	0		0	[Module name]	73	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.201175	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP997B'. 	0 ; 0	0		0	[Module name]	72	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.202196	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP997A'. 	0 ; 0	0		0	[Module name]	71	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.202196	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIC996K'. 	0 ; 0	0		0	[Module name]	69	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.203171	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIC996J'. 	0 ; 0	0		0	[Module name]	68	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.203171	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIC996I'. 	0 ; 0	0		0	[Module name]	67	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.203171	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIC996H'. 	0 ; 0	0		0	[Module name]	66	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.204151	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIC996G'. 	0 ; 0	0		0	[Module name]	65	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.204151	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIC996F'. 	0 ; 0	0		0	[Module name]	64	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.204151	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIC996E'. 	0 ; 0	0		0	[Module name]	63	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.204151	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIC996D'. 	0 ; 0	0		0	[Module name]	62	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.205150	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIC996C'. 	0 ; 0	0		0	[Module name]	61	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.205150	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIC996B'. 	0 ; 0	0		0	[Module name]	60	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.205150	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIC996A'. 	0 ; 0	0		0	[Module name]	59	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.206151	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP996K'. 	0 ; 0	0		0	[Module name]	57	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.206151	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP996J'. 	0 ; 0	0		0	[Module name]	56	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.206151	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP996I'. 	0 ; 0	0		0	[Module name]	55	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.206151	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP996H'. 	0 ; 0	0		0	[Module name]	54	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.207145	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP996G'. 	0 ; 0	0		0	[Module name]	53	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.207145	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP996F'. 	0 ; 0	0		0	[Module name]	52	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.207145	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP996E'. 	0 ; 0	0		0	[Module name]	51	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.208148	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP996D'. 	0 ; 0	0		0	[Module name]	50	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.208148	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP996C'. 	0 ; 0	0		0	[Module name]	49	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.208148	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP996B'. 	0 ; 0	0		0	[Module name]	48	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.209149	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP996A'. 	0 ; 0	0		0	[Module name]	47	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:15.209149	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'AIP995I'. 	0 ; 0	0		0	[Module name]	45	59		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBR995.cob
+ 2023-03-13 11:12:16.679582		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol Program IPBS150 File (97/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBS150.cob
+ 2023-03-13 11:12:16.815317	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Entry or program 'GETDATE'. 	0 ; 0	0		0	[Module name]	419	17		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBS150.cob
+ 2023-03-13 11:12:16.816279	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Entry or program 'CANCEL'. 	0 ; 0	0		0	[Module name]	394	25		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBS150.cob
+ 2023-03-13 11:12:16.879277		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol Program IPBS410 File (98/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBS410.cob
+ 2023-03-13 11:12:17.100239		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol Program IPBS460 File (99/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBS460.cob
+ 2023-03-13 11:12:18.098860		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol Program IPBS465 File (100/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBS465.cob
+ 2023-03-13 11:12:18.691765		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol Program IPBS470 File (101/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBS470.cob
+ 2023-03-13 11:12:18.867736	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Paragraph '2500-EXIT'. 	0 ; 0	0		0	[Module name]	1933	54		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBS470.cob
+ 2023-03-13 11:12:19.344523		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol Program IPBS485 File (102/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBS485.cob
+ 2023-03-13 11:12:19.990871		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol Program IPBS833 File (103/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBS833.cob
+ 2023-03-13 11:12:20.359810		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol Program IPBS970 File (104/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBS970.cob
+ 2023-03-13 11:12:20.787795	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'FPMN95O'. 	0 ; 0	0		0	[Module name]	51	52		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBS970.cob
+ 2023-03-13 11:12:20.788845	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'FPMN01O'. 	0 ; 0	0		0	[Module name]	50	52		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBS970.cob
+ 2023-03-13 11:12:20.788845	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'FPMN02I'. 	0 ; 0	0		0	[Module name]	47	52		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBS970.cob
+ 2023-03-13 11:12:20.788845	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'FPMN01I'. 	0 ; 0	0		0	[Module name]	46	52		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBS970.cob
+ 2023-03-13 11:12:20.923723	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Entry or program 'VENCR'. 	0 ; 0	0		0	[Module name]	2190	23		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBS970.cob
+ 2023-03-13 11:12:20.925722	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Entry or program 'IUME44A'. 	0 ; 0	0		0	[Module name]	3207	17		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBS970.cob
+ 2023-03-13 11:12:21.314530		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBT0101 File (105/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT0101.cpy
+ 2023-03-13 11:12:21.317557		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBT0111 File (106/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT0111.cpy
+ 2023-03-13 11:12:21.319520		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBT0112 File (107/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT0112.cpy
+ 2023-03-13 11:12:21.320521		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBT0201 File (108/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT0201.cpy
+ 2023-03-13 11:12:21.322523		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBT0301 File (109/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT0301.cpy
+ 2023-03-13 11:12:21.323522		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBT0401 File (110/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT0401.cpy
+ 2023-03-13 11:12:21.328518		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IPBT0601 File (111/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT0601.cpy
+ 2023-03-13 11:12:21.330514		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol Program IPBT800 File (112/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT800.cob
+ 2023-03-13 11:12:21.351579	Warning	MODULMSG ; Job execution	Mainframe.02: Cannot resolve Copybook IPBT0909.	0 ; 0	0		0	[Module name]	243	6		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT800.cob
+ 2023-03-13 11:12:21.351579	Warning	MODULMSG ; Job execution	Mainframe.02: Cannot resolve Copybook DB2CICS.	0 ; 0	0		0	[Module name]	1486	6		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT800.cob
+ 2023-03-13 11:12:21.515514	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Paragraph 'DB2-STATUS-EXIT'. 	0 ; 0	0		0	[Module name]	1606	44		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT800.cob
+ 2023-03-13 11:12:21.515514	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Paragraph 'DB2-STATUS'. 	0 ; 0	0		0	[Module name]	1606	28		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT800.cob
+ 2023-03-13 11:12:21.517490	Warning	MODULMSG ; Job execution	Mainframe.03: Ambiguous resolution of Paragraph 'DB2-STATUS-EXIT'.	0 ; 0	0		0	[Module name]	1566	44		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT800.cob
+ 2023-03-13 11:12:21.520498	Warning	MODULMSG ; Job execution	Mainframe.03: Ambiguous resolution of Paragraph 'DB2-STATUS-EXIT'.	0 ; 0	0		0	[Module name]	1512	44		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT800.cob
+ 2023-03-13 11:12:21.521503	Warning	MODULMSG ; Job execution	Mainframe.03: Ambiguous resolution of Paragraph 'DB2-STATUS-EXIT'.	0 ; 0	0		0	[Module name]	1477	44		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT800.cob
+ 2023-03-13 11:12:21.523594	Warning	MODULMSG ; Job execution	Mainframe.03: Ambiguous resolution of Paragraph 'DB2-STATUS-EXIT'.	0 ; 0	0		0	[Module name]	1437	44		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT800.cob
+ 2023-03-13 11:12:21.525486	Warning	MODULMSG ; Job execution	Mainframe.03: Ambiguous resolution of Paragraph 'DB2-STATUS-EXIT'.	0 ; 0	0		0	[Module name]	1386	44		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT800.cob
+ 2023-03-13 11:12:21.528484	Warning	MODULMSG ; Job execution	Mainframe.03: Ambiguous resolution of Paragraph 'DB2-STATUS-EXIT'.	0 ; 0	0		0	[Module name]	1303	44		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT800.cob
+ 2023-03-13 11:12:21.531526	Warning	MODULMSG ; Job execution	Mainframe.03: Ambiguous resolution of Paragraph 'DB2-STATUS-EXIT'.	0 ; 0	0		0	[Module name]	1261	44		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT800.cob
+ 2023-03-13 11:12:21.534547	Warning	MODULMSG ; Job execution	Mainframe.03: Ambiguous resolution of Paragraph 'DB2-STATUS-EXIT'.	0 ; 0	0		0	[Module name]	1221	44		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT800.cob
+ 2023-03-13 11:12:21.536525	Warning	MODULMSG ; Job execution	Mainframe.03: Ambiguous resolution of Paragraph 'DB2-STATUS-EXIT'.	0 ; 0	0		0	[Module name]	1171	44		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT800.cob
+ 2023-03-13 11:12:22.004122	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve CICS Map 'IPB800A'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:22.008134	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve CICS Transaction 'BHUB'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:22.665041		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol Program IPBT810 File (113/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT810.cob
+ 2023-03-13 11:12:22.677039	Warning	MODULMSG ; Job execution	Mainframe.02: Cannot resolve Copybook IPBT0909.	0 ; 0	0		0	[Module name]	144	6		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT810.cob
+ 2023-03-13 11:12:22.677039	Warning	MODULMSG ; Job execution	Mainframe.02: Cannot resolve Copybook DB2CICS.	0 ; 0	0		0	[Module name]	599	6		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT810.cob
+ 2023-03-13 11:12:22.760049	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Paragraph 'DB2-STATUS-EXIT'. 	0 ; 0	0		0	[Module name]	591	44		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT810.cob
+ 2023-03-13 11:12:22.760049	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Paragraph 'DB2-STATUS'. 	0 ; 0	0		0	[Module name]	591	28		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT810.cob
+ 2023-03-13 11:12:22.762051	Warning	MODULMSG ; Job execution	Mainframe.03: Ambiguous resolution of Paragraph 'DB2-STATUS-EXIT'.	0 ; 0	0		0	[Module name]	551	44		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT810.cob
+ 2023-03-13 11:12:22.766073	Warning	MODULMSG ; Job execution	Mainframe.03: Ambiguous resolution of Paragraph 'DB2-STATUS-EXIT'.	0 ; 0	0		0	[Module name]	494	44		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT810.cob
+ 2023-03-13 11:12:22.888079	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve CICS Map 'IPB810A'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:22.888079	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve CICS Transaction 'BH01'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:23.029992		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol Program IPBT820 File (114/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT820.cob
+ 2023-03-13 11:12:23.045984	Warning	MODULMSG ; Job execution	Mainframe.02: Cannot resolve Copybook IPBT0909.	0 ; 0	0		0	[Module name]	260	6		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT820.cob
+ 2023-03-13 11:12:23.045984	Warning	MODULMSG ; Job execution	Mainframe.02: Cannot resolve Copybook DB2CICS.	0 ; 0	0		0	[Module name]	1184	6		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT820.cob
+ 2023-03-13 11:12:23.172733	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Paragraph 'DB2-STATUS-EXIT'. 	0 ; 0	0		0	[Module name]	1329	36		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT820.cob
+ 2023-03-13 11:12:23.172733	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Paragraph 'DB2-STATUS'. 	0 ; 0	0		0	[Module name]	1329	20		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT820.cob
+ 2023-03-13 11:12:23.202710	Warning	MODULMSG ; Job execution	Mainframe.03: Ambiguous resolution of Paragraph 'DB2-STATUS-EXIT'.	0 ; 0	0		0	[Module name]	1018	44		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT820.cob
+ 2023-03-13 11:12:23.204713	Warning	MODULMSG ; Job execution	Mainframe.03: Ambiguous resolution of Paragraph 'DB2-STATUS-EXIT'.	0 ; 0	0		0	[Module name]	978	44		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT820.cob
+ 2023-03-13 11:12:23.207704	Warning	MODULMSG ; Job execution	Mainframe.03: Ambiguous resolution of Paragraph 'DB2-STATUS-EXIT'.	0 ; 0	0		0	[Module name]	922	44		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT820.cob
+ 2023-03-13 11:12:23.485672	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve CICS Map 'IPB820A'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:23.485672	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Common category for all CICS datasets 'IPBN820U'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:23.491753	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve CICS Transaction 'BH02'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:23.784637		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol Program IPBT830 File (115/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT830.cob
+ 2023-03-13 11:12:23.794639	Warning	MODULMSG ; Job execution	Mainframe.02: Cannot resolve Copybook IPBT0909.	0 ; 0	0		0	[Module name]	119	6		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT830.cob
+ 2023-03-13 11:12:23.979610	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve CICS Map 'IPB830A'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:23.979610	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve CICS Transaction 'BH03'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:23.979610	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve CICS Map 'IMAP001'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:24.118345		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol Program IPBT840 File (116/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT840.cob
+ 2023-03-13 11:12:24.134340	Warning	MODULMSG ; Job execution	Mainframe.02: Cannot resolve Copybook IPBT0501.	0 ; 0	0		0	[Module name]	160	6		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT840.cob
+ 2023-03-13 11:12:24.597290	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve CICS Map 'IPB840A'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:24.598303	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve CICS Transaction 'BH04'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:25.005313		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol Program IPBT850 File (117/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT850.cob
+ 2023-03-13 11:12:25.016240	Warning	MODULMSG ; Job execution	Mainframe.02: Cannot resolve Copybook IPBT0909.	0 ; 0	0		0	[Module name]	150	6		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT850.cob
+ 2023-03-13 11:12:25.289160	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve CICS Map 'IPB850A'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:25.289160	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve CICS Transaction 'BH85'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:25.464127		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol Program IPBT860 File (118/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT860.cob
+ 2023-03-13 11:12:25.474128	Warning	MODULMSG ; Job execution	Mainframe.02: Cannot resolve Copybook IPBT0909.	0 ; 0	0		0	[Module name]	159	6		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT860.cob
+ 2023-03-13 11:12:25.474128	Warning	MODULMSG ; Job execution	Mainframe.02: Cannot resolve Copybook DB2CICS.	0 ; 0	0		0	[Module name]	641	6		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT860.cob
+ 2023-03-13 11:12:25.545121	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Paragraph 'DB2-STATUS-EXIT'. 	0 ; 0	0		0	[Module name]	581	44		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT860.cob
+ 2023-03-13 11:12:25.546117	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Paragraph 'DB2-STATUS'. 	0 ; 0	0		0	[Module name]	581	28		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT860.cob
+ 2023-03-13 11:12:25.548116	Warning	MODULMSG ; Job execution	Mainframe.03: Ambiguous resolution of Paragraph 'DB2-STATUS-EXIT'.	0 ; 0	0		0	[Module name]	542	44		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT860.cob
+ 2023-03-13 11:12:25.657177	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve CICS Map 'IPB860A'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:25.658167	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve CICS Transaction 'BH86'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:25.790096		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol Program IPBT870 File (119/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT870.cob
+ 2023-03-13 11:12:25.808080	Warning	MODULMSG ; Job execution	Mainframe.02: Cannot resolve Copybook IPBT0909.	0 ; 0	0		0	[Module name]	267	6		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT870.cob
+ 2023-03-13 11:12:26.304035	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Common category for all CICS datasets 'IPBN870U'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:26.304035	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve CICS Map 'IPB870A'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:26.305085	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve CICS Transaction 'BH87'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:26.661676		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol Program IPBT880 File (120/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT880.cob
+ 2023-03-13 11:12:26.679713	Warning	MODULMSG ; Job execution	Mainframe.02: Cannot resolve Copybook IPBT0909.	0 ; 0	0		0	[Module name]	577	6		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT880.cob
+ 2023-03-13 11:12:26.679713	Warning	MODULMSG ; Job execution	Mainframe.02: Cannot resolve Copybook DB2CICS.	0 ; 0	0		0	[Module name]	1846	6		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT880.cob
+ 2023-03-13 11:12:26.888689	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Paragraph 'DB2-STATUS-EXIT'. 	0 ; 0	0		0	[Module name]	1397	42		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT880.cob
+ 2023-03-13 11:12:26.888689	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Paragraph 'DB2-STATUS'. 	0 ; 0	0		0	[Module name]	1397	26		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBT880.cob
+ 2023-03-13 11:12:27.212610	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Cobol Program 'ICEZ061'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:27.213617	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Cobol Program 'ICEZ063'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:27.213617	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve CICS Map 'IPB880A'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:27.213617	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve CICS Mapset 'IPB880A'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:27.218665	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Common category for all CICS datasets 'ICEN173U'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:27.218665	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Common category for all CICS datasets 'ICEN122U'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:27.218665	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Common category for all CICS datasets 'IPBN880U'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:27.219690	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve CICS Transaction 'BH88'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:27.573309		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol Program IPBV425 File (121/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBV425.cob
+ 2023-03-13 11:12:27.909212		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol Program IPBV495 File (122/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBV495.cob
+ 2023-03-13 11:12:28.183225	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'IKRN11O'. 	0 ; 0	0		0	[Module name]	58	52		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBV495.cob
+ 2023-03-13 11:12:28.185225	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'IKRN12U'. 	0 ; 0	0		0	[Module name]	52	57		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBV495.cob
+ 2023-03-13 11:12:28.186229	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve DD name 'IKRN11I'. 	0 ; 0	0		0	[Module name]	50	52		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IPBV495.cob
+ 2023-03-13 11:12:28.664455		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol Program ITPS060 File (123/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\ITPS060.cob
+ 2023-03-13 11:12:34.324119	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Entry or program 'IUPE001C'. 	0 ; 0	0		0	[Module name]	3600	17		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\ITPS060.cob
+ 2023-03-13 11:12:34.332139	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Entry or program 'SELECT'. 	0 ; 0	0		0	[Module name]	1863	17		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\ITPS060.cob
+ 2023-03-13 11:12:34.335125	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Entry or program 'GET'. 	0 ; 0	0		0	[Module name]	2131	17		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\ITPS060.cob
+ 2023-03-13 11:12:34.335125	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Entry or program 'WRITE'. 	0 ; 0	0		0	[Module name]	2153	17		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\ITPS060.cob
+ 2023-03-13 11:12:34.335125	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Entry or program 'RELEASE'. 	0 ; 0	0		0	[Module name]	2161	21		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\ITPS060.cob
+ 2023-03-13 11:12:34.337127	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve Entry or program 'PUT'. 	0 ; 0	0		0	[Module name]	3604	17		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\ITPS060.cob
+ 2023-03-13 11:12:35.079752		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IUMK0016 File (124/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IUMK0016.cpy
+ 2023-03-13 11:12:35.081759		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook IUMK0100 File (125/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\IUMK0100.cpy
+ 2023-03-13 11:12:35.082760		MODULMSG ; Job execution	Mainframe.12: Analyzing Cobol CopyBook SQLCA File (126/126).	0 ; 0	0		0	[Module name]	0	0		C:\ProgramData\CAST\AipConsole\AipNode\deploy\BHUB\main_sources\SQLCA.cpy
+ 2023-03-13 11:12:35.617764	Information	MODULMSG ; Job execution	Ending External Link processing	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:36.351706		MODULMSG ; Job execution	Comparing objects on server . . .	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:41.028369		MODULMSG ; Job execution	Comparison completed.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:41.028369		MODULMSG ; Job execution	Merging objects on server . . .	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.293737		MODULMSG ; Job execution	Merge completed.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.471755	Information	MODULMSG ; Job execution	[MAv2] Processing done (0 processed)	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.471755	Information	MODULMSG ; Job execution	[MAv2] Exiting. . .	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.471755		MODULMSG ; Job execution	-------------------------------------------------------------------	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.472748		MODULMSG ; Job execution	List of Missing/Unresolved Objects	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.472748		MODULMSG ; Job execution	-------------------------------------------------------------------	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.472748	Warning	MODULMSG ; Job execution	Mainframe.02: Cannot resolve Copybook DB2CICS.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.472748	Warning	MODULMSG ; Job execution	Mainframe.02: Cannot resolve Copybook IPBT0501.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.472748	Warning	MODULMSG ; Job execution	Mainframe.02: Cannot resolve Copybook IPBT0909.	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.472748	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Entry or program	ABEND'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.472748	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Cobol Program	ABORT'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.472748	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Cobol Program	AFCP2016'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.472748	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Cobol Program	ANYRECS'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.472748	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'CICS Transaction	BH01'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.472748	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'CICS Transaction	BH02'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.472748	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'CICS Transaction	BH03'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.472748	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'CICS Transaction	BH04'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.472748	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'CICS Transaction	BH85'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.472748	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'CICS Transaction	BH86'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.472748	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'CICS Transaction	BH87'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.472748	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'CICS Transaction	BH88'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.472748	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'CICS Transaction	BHUB'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.472748	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Cobol Program	BPXBATSL'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.472748	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Entry or program	CANCEL'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.472748	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Cobol Program	DFHEBFLR'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.472748	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Cobol Program	DFHJUP'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.472748	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Entry or program	DSNTIAR'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.472748	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Cobol Program	EASYPLUS'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.472748	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Cobol Program	FLASFTP'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.472748	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Entry or program	GET'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.473738	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Entry or program	GETDATE'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.473738	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Common category for all CICS datasets	ICEN122U'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.473738	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Common category for all CICS datasets	ICEN173U'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.473738	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Cobol Program	ICEZ061'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.473738	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Cobol Program	ICEZ063'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.473738	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Cobol Program	IERRCO00'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.473738	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'CICS Map	IMAP001'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.473738	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'CICS Map	IPB800A'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.473738	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'CICS Map	IPB810A'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.473738	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'CICS Map	IPB820A'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.473738	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'CICS Map	IPB830A'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.473738	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'CICS Map	IPB840A'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.473738	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'CICS Map	IPB850A'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.473738	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'CICS Map	IPB860A'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.473738	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'CICS Map	IPB870A'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.473738	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'CICS Map	IPB880A'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.473738	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Common category for all CICS datasets	IPBN820U'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.473738	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Common category for all CICS datasets	IPBN870U'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.473738	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Common category for all CICS datasets	IPBN880U'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.473738	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Entry or program	IUME44A'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.473738	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Entry or program	IUME44G'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.473738	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Entry or program	IUMS027'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.473738	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Entry or program	IUMV044'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.473738	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Entry or program	IUPE001C'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.473738	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Cobol Program	IUPS016A'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.473738	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Cobol Program	KDATALOG'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.473738	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Cobol Program	MAINMAIL'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.474743	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Cobol Program	PARMFILE'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.474743	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Cobol Program	PSCOPY'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.474743	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Cobol Program	PTLDRIVM'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.474743	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Entry or program	PUT'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.474743	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Entry or program	RELEASE'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.474743	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Cobol Program	SASB'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.474743	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Entry or program	SELECT'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.474743	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Entry or program	VENCR'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.474743	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Cobol Program	WAIT'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.474743	Warning	MODULMSG ; Job execution	Mainframe.09: Cannot resolve  'Entry or program	WRITE'. 	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.474743		MODULMSG ; Job execution	-------------------------------------------------------------------	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:42.474743		MODULMSG ; Job execution	Inference Engine resolution statistics
+- COBOL dynamic call resolution and paragraph call graph : 
+      - 100% on string concatenation
+      - 100% on procedure call depth
+- Paragraph cyclic calls detection :
+      - 71% on string concatenation
+      - 99% on procedure call depth
+      - 79% on local procedure complexity
+- Uninitialized COBOL variables detection :
+      - 100% on string concatenation
+      - 74% on procedure call depth
+      - 99% on local procedure complexity
+- OPEN in loop detection : 
+      - 100% on string concatenation
+      - 99% on procedure call depth	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:43.604545	Information	MODULMSG ; Job execution	The process `"C:\ProgramData\CAST\CAST\Extensions\com.castsoftware.mainframe.1.0.23-funcrel\MainframeCmd.exe" "C:\ProgramData\CAST\CAST\CASTMS\LISA\8f7b3aa31027440b92b6e5f7a0837650\Scr74768a468a4f4658b1de149439c5d02f\MainframeCmd.xml"' exited normally	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:43.871561	Information	MODULMSG ; Job execution	New Job status	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:43.872527	Information	MODULMSG ; Job execution		Execution date=2023/03/13 12:12	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:43.873525	Information	MODULMSG ; Job execution		Execution duration=0 days, 00 hours, 01 mins, 46 secs	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:43.873525	Information	MODULMSG ; Job execution		Execution result=success	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:43.873525	Information	MODULMSG ; Job execution	Analysis completed	0 ; 0	0		0	[Module name]	0	0		
+ 2023-03-13 11:12:43.896553	Information	MODULMSG ; Job execution	0 fatal error(s); 0 error(s); 242 warning(s); 299 information message(s).	0 ; 0	0		0	[Module name]	0	0		
